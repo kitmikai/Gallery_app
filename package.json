@@ -4,6 +4,7 @@
   "description": "A gallery app created using node.js and express",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,13 +12,14 @@
     "url": "git+https://github.com/kitmikai/Gallery_app.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Timothy Matara",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/kitmikai/Gallery_app/issues"
   },
   "homepage": "https://github.com/kitmikai/Gallery_app#readme",
   "dependencies": {
+    "ejs": "^3.1.3",
     "express": "^4.17.1"
   },
   "devDependencies": {
@@ -26,6 +28,7 @@
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-prettier": "^3.1.4",
+    "nodemon": "^2.0.4",
     "prettier": "^2.0.5"
   }
 }
