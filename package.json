@@ -1,0 +1,20 @@
+{
+  "name": "Gallery_app",
+  "version": "1.0.0",
+  "description": "A gallery app created using node.js and express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kitmikai/Gallery_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kitmikai/Gallery_app/issues"
+  },
+  "homepage": "https://github.com/kitmikai/Gallery_app#readme"
+}
